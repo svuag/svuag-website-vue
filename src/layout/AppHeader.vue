@@ -17,18 +17,21 @@
       </div>
 
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <base-button size="sm" type="primary">
-          <router-link to="/landing" class="dropdown-item">Websites</router-link>
-        </base-button>
-        <base-button size="sm" type="primary">
-          <router-link to="/profile" class="dropdown-item">Graphics</router-link>
-        </base-button>
-        <base-button size="sm" type="primary">
-          <router-link to="/login" class="dropdown-item">Apps</router-link>
-        </base-button>
-        <base-button size="sm" type="primary">
-          <router-link to="/register" class="dropdown-item">..Other apps</router-link>
-        </base-button>
+        <router-link to="/landing">
+          <base-button size="sm" type="primary">Websites</base-button>
+        </router-link>
+
+        <router-link to="/profile" class="button">
+          <base-button size="sm" type="primary">Graphics</base-button>
+        </router-link>
+
+        <router-link to="/login">
+          <base-button size="sm" type="primary">Apps</base-button>
+        </router-link>
+
+        <router-link to="/register">
+          <base-button size="sm" type="primary">..Other apps</base-button>
+        </router-link>
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item d-none d-lg-block ml-lg-4">
