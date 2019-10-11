@@ -7,6 +7,11 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
+import Test from "./views/Test.vue";
+import Apps from "./views/Apps.vue";
+import Websites from "./views/Websites.vue";
+import MoreApps from "./views/MoreApps.vue";
+import Graphics from "./views/Graphics.vue";
 
 Vue.use(Router);
 
@@ -55,6 +60,51 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Profile,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/test",
+      name: "test",
+      components: {
+        header: AppHeader,
+        default: Test,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/websites",
+      name: "websites",
+      components: {
+        header: AppHeader,
+        default: Websites,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/moreapps",
+      name: "moreapps",
+      components: {
+        header: AppHeader,
+        default: MoreApps,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/apps",
+      name: "apps",
+      components: {
+        header: AppHeader,
+        default: Apps,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/graphics",
+      name: "graphics",
+      components: {
+        header: AppHeader,
+        default: Graphics,
         footer: AppFooter
       }
     }

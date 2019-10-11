@@ -15,24 +15,28 @@
           <close-button @click="closeMenu"></close-button>
         </div>
       </div>
+      <div>
+        <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+          <router-link to="/websites">
+            <base-button type="primary">Websites</base-button>
+            <br />
+          </router-link>
 
-      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
-        <router-link to="/landing">
-          <base-button size="sm" type="primary">Websites</base-button>
-        </router-link>
+          <router-link to="/graphics" class="button">
+            <base-button type="primary">Graphics</base-button>
+            <br />
+          </router-link>
 
-        <router-link to="/profile" class="button">
-          <base-button size="sm" type="primary">Graphics</base-button>
-        </router-link>
+          <router-link to="/apps">
+            <base-button type="primary">Apps</base-button>
+            <br />
+          </router-link>
 
-        <router-link to="/login">
-          <base-button size="sm" type="primary">Apps</base-button>
-        </router-link>
-
-        <router-link to="/register">
-          <base-button size="sm" type="primary">..Other apps</base-button>
-        </router-link>
-      </ul>
+          <router-link to="/moreapps">
+            <base-button type="primary">...More apps</base-button>
+          </router-link>
+        </ul>
+      </div>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item d-none d-lg-block ml-lg-4">
           <a
@@ -42,7 +46,7 @@
             class="btn btn-neutral btn-icon"
           >
             <span class="btn-inner--icon">
-              <i class="fa fa-cloud-download mr-2"></i>
+              <i class="fa fa-envelope mr-2"></i>
             </span>
             <span class="nav-link-inner--text">Contact</span>
           </a>
