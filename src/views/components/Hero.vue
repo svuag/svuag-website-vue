@@ -18,11 +18,13 @@
           <div class="col-lg-7 text-center pt-lg">
             <img src="img/brand/white.png" style="width: 200px;" class="img-fluid" />
             <p class="lead text-white mt-4 mb-5">
-              <mark>S</mark>enseless and
-              <mark>V</mark>ery
-              <mark>U</mark>seless
-              <mark>A</mark>pps &
-              <mark>G</mark>ames.
+              <mark>S</mark>uper
+              <mark>V</mark>ue
+              <mark>U</mark>nique
+              L
+              <mark>A</mark>nding
+              Pa
+              <mark>G</mark>es.
             </p>
           </div>
         </div>

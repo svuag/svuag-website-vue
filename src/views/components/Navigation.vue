@@ -3,7 +3,7 @@
         <div class="container">
             <!-- Navigation -->
             <h2 class="mb-5">
-                <span>Navbars</span>
+                <span>Navbar</span>
             </h2>
         </div>
         <!-- Navbar default -->

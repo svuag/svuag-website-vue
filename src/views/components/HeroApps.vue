@@ -18,9 +18,9 @@
           <div class="col-lg-7 text-center pt-lg">
             <img src="img/brand/white.png" style="width: 200px;" class="img-fluid" />
             <p class="lead text-white mt-4 mb-5">
-              <mark>S</mark>enseless and
-              <mark>V</mark>ery
-              <mark>U</mark>seless
+              <mark>S</mark>trange
+              <mark>V</mark>visual
+              <mark>U</mark>nique
               <mark>A</mark>pps &
               <mark>G</mark>ames.
             </p>
